@@ -2,6 +2,9 @@
 autofs_directory: /mnt
 borgmatic_create: borgmatic -C
 borgmatic_create_and_prune: "{{ borgmatic_create }} -p"
+hoarder_web_version: latest
+hoarder_meilisearch_version: v1.11.1
+hoarder_chrome_version: 123
 linkding_version: 1.36.0-plus-alpine
 freshrss_version: 1.24.3
 syncthing_version: 1.28.1

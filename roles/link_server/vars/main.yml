@@ -1,0 +1,7 @@
+---
+packages:
+  - podman
+services:
+  - hoarder-chrome-container.service
+  - hoarder-web-container.service
+  - hoarder-meilisearch-container.service
